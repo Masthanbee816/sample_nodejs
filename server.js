@@ -1,5 +1,5 @@
 var http = require("http");  
-var config = grunt.file.readJSON('./package.json');
+
 http.createServer(function (request, response) {  
  // Send the HTTP header   
    // HTTP Status: 200 : OK  
