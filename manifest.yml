@@ -2,5 +2,5 @@
 applications:
 - name: APPNAME_123
   command: node server.js
-  buildpack: https://github.com/cloudfoundry/buildpack-nodejs.git
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
   instances: 1
