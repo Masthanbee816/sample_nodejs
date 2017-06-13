@@ -2,6 +2,6 @@
 applications:
 - name: APPNAME_123
   command: node server.js
-  path: pacakge.json
+  path: package.json
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
   instances: 1
